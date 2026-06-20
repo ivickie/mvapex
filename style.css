@@ -1788,3 +1788,17 @@ input[type="checkbox"]:checked + .checkbox-custom::after {
   filter: grayscale(0%);
   opacity: 1;
 }
+
+/* ==========================================================================
+   9. Logo Styling
+   ========================================================================== */
+.logo-img {
+  height: 40px;
+  width: auto;
+  display: block;
+  transition: filter var(--transition-normal);
+}
+
+[data-theme="dark"] .logo-img {
+  filter: invert(1) brightness(2);
+}
