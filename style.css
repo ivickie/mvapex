@@ -1772,23 +1772,19 @@ input[type="checkbox"]:checked + .checkbox-custom::after {
   display: flex;
   align-items: center;
   justify-content: center;
-  transition: transform var(--transition-normal);
+  filter: grayscale(100%);
+  opacity: 0.5;
+  transition: transform var(--transition-normal), filter var(--transition-normal), opacity var(--transition-normal);
 }
 
 .logo-svg {
   width: 140px;
   height: 50px;
-  filter: grayscale(100%);
-  opacity: 0.5;
   color: var(--text-primary);
-  transition: filter var(--transition-normal), opacity var(--transition-normal);
 }
 
 .partner-logo:hover {
   transform: scale(1.1);
-}
-
-.partner-logo:hover .logo-svg {
   filter: grayscale(0%);
   opacity: 1;
 }
