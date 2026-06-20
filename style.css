@@ -1736,3 +1736,59 @@ input[type="checkbox"]:checked + .checkbox-custom::after {
   opacity: 1;
   transform: translateY(0);
 }
+
+/* ==========================================================================
+   8. Partners / Trust Section
+   ========================================================================== */
+.partners-section {
+  background-color: var(--bg-secondary);
+  border-top: 1px solid var(--border-color);
+  border-bottom: 1px solid var(--border-color);
+  padding: var(--space-xl) 0;
+  text-align: center;
+}
+
+.partners-title {
+  font-family: var(--font-accent);
+  font-size: 0.8rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: var(--text-muted);
+  margin-bottom: var(--space-lg);
+}
+
+.partners-grid {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: var(--space-3xl);
+  flex-wrap: wrap;
+}
+
+.partner-logo {
+  width: 140px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: transform var(--transition-normal);
+}
+
+.logo-svg {
+  width: 140px;
+  height: 50px;
+  filter: grayscale(100%);
+  opacity: 0.5;
+  color: var(--text-primary);
+  transition: filter var(--transition-normal), opacity var(--transition-normal);
+}
+
+.partner-logo:hover {
+  transform: scale(1.1);
+}
+
+.partner-logo:hover .logo-svg {
+  filter: grayscale(0%);
+  opacity: 1;
+}
