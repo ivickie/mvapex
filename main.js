@@ -57,9 +57,10 @@ function initMobileMenu() {
     navMenu.classList.toggle('active');
   });
 
-  // Close menu when clicking navigation links
-  navLinks.forEach(link => {
-    link.addEventListener('click', () => {
+  // Close menu when clicking navigation links or the mobile Calculate Cost button
+  const closeElements = document.querySelectorAll('.nav-link, .nav-mobile-btn');
+  closeElements.forEach(el => {
+    el.addEventListener('click', () => {
       hamburger.classList.remove('active');
       navMenu.classList.remove('active');
     });

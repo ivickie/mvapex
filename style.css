@@ -559,6 +559,23 @@ input[type="checkbox"]:checked + .checkbox-custom::after {
   color: var(--primary);
 }
 
+.nav-mobile-btn {
+  display: none;
+}
+
+.nav-desktop-btn {
+  flex-shrink: 0;
+  width: max-content;
+}
+
+.mobile-label {
+  display: none;
+}
+
+.desktop-label {
+  display: inline;
+}
+
 .nav-menu {
   display: flex;
   align-items: center;
@@ -649,6 +666,18 @@ input[type="checkbox"]:checked + .checkbox-custom::after {
   transition: all var(--transition-normal);
 }
 
+/* Smaller Desktop Header Spacing & Button Tuning */
+@media (max-width: 1200px) {
+  .nav-menu {
+    gap: var(--space-md);
+  }
+  
+  .nav-desktop-btn {
+    padding: 8px 16px !important;
+    font-size: 0.85rem !important;
+  }
+}
+
 /* Mobile Nav Menu Drawer */
 @media (max-width: 1024px) {
   .hamburger {
@@ -676,15 +705,14 @@ input[type="checkbox"]:checked + .checkbox-custom::after {
     right: 0;
   }
   
-  .nav-actions {
-    margin-top: var(--space-xl);
-    flex-direction: column;
-    width: 100%;
-    align-items: stretch;
+  .nav-desktop-btn {
+    display: none !important;
   }
   
-  .nav-actions .btn {
+  .nav-mobile-btn {
+    display: inline-flex;
     width: 100%;
+    margin-top: var(--space-md);
   }
 
   /* Hamburger transform when menu open */
@@ -1801,4 +1829,153 @@ input[type="checkbox"]:checked + .checkbox-custom::after {
 
 [data-theme="dark"] .logo-img {
   filter: invert(1) brightness(2);
+}
+
+/* ==========================================================================
+   10. Extra Responsive Overrides (Mobile & Tablet)
+   ========================================================================== */
+
+@media (max-width: 1024px) {
+  .estimator-result {
+    position: relative;
+    top: 0;
+  }
+}
+
+@media (max-width: 768px) {
+  .hero-title {
+    font-size: 2.4rem;
+  }
+  
+  .hero-desc {
+    font-size: 1.05rem;
+  }
+  
+  .section-header h2 {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 480px) {
+  /* Hero Typography & Button Stack */
+  .hero-title {
+    font-size: 2.0rem;
+    letter-spacing: -0.5px;
+  }
+  
+  .hero-desc {
+    font-size: 0.95rem;
+  }
+  
+  .hero-btns {
+    flex-direction: column;
+    width: 100%;
+    gap: var(--space-sm);
+  }
+  
+  .hero-btns .btn {
+    width: 100%;
+  }
+  
+  /* Hero Animated Ring Art scaling to prevent horizontal scroll */
+  .hero-graphic {
+    height: 220px;
+    margin-top: var(--space-lg);
+  }
+  
+  .graphic-sphere {
+    width: 120px;
+    height: 120px;
+  }
+  
+  .graphic-ring {
+    width: 170px;
+    height: 170px;
+  }
+  
+  .graphic-ring-2 {
+    width: 210px;
+    height: 210px;
+  }
+  
+  /* Section Header Sizing */
+  .section-header h2 {
+    font-size: 1.75rem;
+  }
+  
+  /* Stats Grid Compression Prevention */
+  .stats-grid {
+    grid-template-columns: 1fr;
+    gap: var(--space-lg);
+  }
+  
+  /* Form & Estimator Padding adjustments for maximum horizontal space */
+  .contact-form-wrapper {
+    padding: var(--space-lg); /* 24px instead of 32px */
+  }
+  
+  .estimator-section {
+    padding: var(--space-lg) var(--space-md) !important; /* 24px vertical, 16px horizontal */
+  }
+  
+  .estimator-result {
+    padding: var(--space-md) !important; /* 16px instead of 32px */
+  }
+  
+  .breakdown-row {
+    font-size: 0.85rem;
+    gap: 8px;
+  }
+  
+  .breakdown-row.total {
+    font-size: 1.05rem;
+  }
+  
+  /* Scale labels adjustments for mobile */
+  .desktop-label {
+    display: none !important;
+  }
+  
+  .mobile-label {
+    display: inline !important;
+  }
+  
+  /* Overflow Word breaks on long links */
+  .contact-method-details p, .contact-method-details a {
+    word-break: break-all;
+    overflow-wrap: break-word;
+  }
+  
+  /* Center footer links on mobile */
+  .footer-bottom {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .footer-bottom-links {
+    justify-content: center;
+  }
+  
+  /* Modal responsive buttons stacking */
+  .modal-footer {
+    flex-direction: column;
+    align-items: stretch;
+    gap: var(--space-sm);
+  }
+  
+  .modal-footer .btn {
+    width: 100%;
+  }
+  
+  /* Portfolio filter button sizing */
+  .portfolio-filter-buttons {
+    gap: 8px;
+    margin-bottom: var(--space-lg);
+  }
+  
+  .filter-btn {
+    padding: 6px 12px;
+    font-size: 0.8rem;
+  }
 }
