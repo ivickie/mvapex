@@ -1,0 +1,45 @@
+# MV-Apex Digital Solutions (MVApex Digital Solutions LTD)
+
+> A technology partner that transforms complex business ideas into powerful digital solutions.
+
+- Website: https://www.mvapex.com.ng/
+- Legal Entity: MVApex Digital Solutions LTD (RC 9587441)
+- Headquarters: Flat 3, Off Prayer Road, Behind Total Filling Station, Jikwoyi-Agwangade, Abuja, FCT, Nigeria
+- Coverage: Nigeria (Abuja, Lagos, nationwide) and international remote clients
+- Contact: hello@mvapex.com.ng | +234 703 728 8929
+
+## Core Services
+- [Custom Software Development](https://www.mvapex.com.ng/services/custom-software-development): Tailored software systems engineered from the ground up to automate complex workflows, eliminate off-the-shelf limitations, and scale with your organization.
+- [SaaS Development](https://www.mvapex.com.ng/services/saas-development): Cloud-native Software-as-a-Service engineering covering multi-tenant architecture, subscription billing, secure onboarding, and scalable APIs.
+- [Enterprise Software Development](https://www.mvapex.com.ng/services/enterprise-software-development): High-reliability internal platforms, multi-branch institutional management systems, and process automation software for complex organizations.
+- [Website Design and Development](https://www.mvapex.com.ng/services/website-design-and-development): Bespoke corporate websites, online booking systems, and e-commerce platforms engineered with clean code, Core Web Vitals speed, and SEO foundations.
+- [AI Application Development](https://www.mvapex.com.ng/services/ai-application-development): Applied artificial intelligence engineering—embedding intelligent retrieval, workflow automation, and smart assistance into real desktop and cloud products.
+- [Desktop Application Development](https://www.mvapex.com.ng/services/desktop-application-development): Specialized Windows and macOS desktop applications built for offline-first stability, multi-display workflows, local storage, and responsive native performance.
+- [Church Management Software Solutions](https://www.mvapex.com.ng/services/church-management-software): Enterprise church administration platforms and AI-powered live presentation software designed for growing ministries, multi-branch churches, and media teams.
+- [IT Consulting & Technology Strategy](https://www.mvapex.com.ng/services/it-consulting): Architecture assessments, cloud modernization, vendor evaluation, and digital transformation roadmaps led by senior software engineers.
+- [Digital Marketing and SEO](https://www.mvapex.com.ng/services/digital-marketing-and-seo): Technical SEO, Answer Engine Optimization (AEO), Generative Engine Optimization (GEO), and conversion-focused digital campaigns.
+- [Product Strategy and Management](https://www.mvapex.com.ng/services/product-strategy-and-management): Product discovery, MVP scope definition, user journey mapping, backlog prioritization, and agile delivery leadership.
+
+## Documented Projects & Case Studies
+- [Susse Wellness Spa](https://www.mvapex.com.ng/portfolio/susse-wellness-spa) (Web Application & Booking Platform): A commercial wellness spa website, 4-step online appointment booking platform, e-commerce skincare boutique, and self-service guest booking portal integrated with Moniepoint/Monnify online payments.
+- [GloryBeam](https://www.mvapex.com.ng/portfolio/glorybeam) (Desktop Software Application): An AI-powered church presentation desktop software engineered to streamline live worship projection, scripture display, and church media operations with reliable offline-first desktop performance.
+- [FPM Global](https://www.mvapex.com.ng/portfolio/fpm-global) (Enterprise Management Software): An enterprise church management solution engineered to centralize institutional administration, member records, departmental coordination, and complex multi-level operational workflows.
+- [SchoolManagr Portal](https://www.mvapex.com.ng/portfolio/schoolmanagr) (Multi-Tenant SaaS Platform): A multi-tenant school management SaaS platform streamlining academic administration, student records, staff workflows, and parent-school communications.
+- [Realtorcrest Platform](https://www.mvapex.com.ng/portfolio/realtorcrest) (Multi-Tenant Real Estate Portal): An interactive real estate portal engineered for property agencies and developers to manage listings, showcase developments, and coordinate broker networks.
+- [Career Impact Lab](https://www.mvapex.com.ng/portfolio/career-impact-lab) (Digital Platform & Product Strategy): A digital career strategy and professional development platform built to equip ambitious professionals with modern skills and structured growth programs.
+- [Lumina CRM & Growth Platform](https://www.mvapex.com.ng/portfolio/lumina-crm) (Digital Growth & Conversion Architecture): A conversion-focused digital presence and search acquisition strategy engineered to align CRM product positioning with high-intent B2B lead capture.
+
+## Technical & Strategy Insights
+- [How Much Does Custom Software Development Cost in Nigeria?](https://www.mvapex.com.ng/insights/custom-software-development-cost-nigeria): A transparent breakdown of what drives custom software pricing in Nigeria—from MVPs and booking platforms to multi-branch enterprise systems.
+- [How to Choose a Software Development Company](https://www.mvapex.com.ng/insights/how-to-choose-a-software-development-company): How business owners and institutional leaders can separate genuine software engineering partners from template-based agencies.
+- [SaaS Development vs Traditional Software](https://www.mvapex.com.ng/insights/saas-development-vs-traditional-software): Understanding when to build a multi-tenant cloud SaaS product versus a dedicated single-organization or native desktop application.
+- [Benefits of Enterprise Management Systems](https://www.mvapex.com.ng/insights/benefits-of-enterprise-management-systems): Why growing Nigerian businesses and multi-branch institutions outgrow spreadsheets—and what a unified enterprise management platform unlocks.
+- [How AI Is Transforming Software Development](https://www.mvapex.com.ng/insights/how-ai-is-transforming-software-development): Separating practical AI software engineering from hype—how applied AI accelerates delivery and powers smarter user workflows.
+- [How Church Management Software Improves Administration](https://www.mvapex.com.ng/insights/how-church-management-software-improves-administration): How structured digital administration helps churches care for members better, align departments, and coordinate multi-branch operations.
+- [How to Build an AI-Powered Desktop Application](https://www.mvapex.com.ng/insights/how-to-build-an-ai-powered-desktop-application): Architectural lessons for designing fast, offline-resilient desktop software enhanced with practical artificial intelligence.
+- [Why Businesses Need Custom Software Solutions](https://www.mvapex.com.ng/insights/why-businesses-need-custom-software-solutions): When generic SaaS subscriptions stop fitting your business model—and how custom software turns unique operations into a durable advantage.
+
+## Planning & Contact
+- [Interactive Project Cost & Timeline Estimator](https://www.mvapex.com.ng/cost-calculator)
+- [About MV-Apex](https://www.mvapex.com.ng/about)
+- [Start a Project / Contact](https://www.mvapex.com.ng/contact)
